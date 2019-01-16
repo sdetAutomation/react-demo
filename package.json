@@ -7,7 +7,9 @@
       "start": "npm-run-all --parallel open:src lint:watch",
       "open:src": "babel-node tools/srcServer.js",
       "lint": "node_modules/.bin/esw webpack.config.* src tools",
-      "lint:watch": "yarn lint -- --watch"
+      "lint:watch": "yarn lint -- --watch",
+      "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\""
+
   },
   "author": "sdetAutomation",
   "license": "MIT",
@@ -65,6 +67,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sdetAutomation"
+    "url": "https://github.com/sdetAutomation/react-demo"
   }
 }
