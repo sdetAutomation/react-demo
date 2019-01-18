@@ -1,5 +1,7 @@
 # react-demo
 
+Install dependencies: `yarn`
+
 brew install node
 
 brew install nvm
