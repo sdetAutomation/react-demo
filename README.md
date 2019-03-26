@@ -15,7 +15,7 @@ create at root of project: .babelrc, .editorconfig, .eslintrc, webpack.config.de
 
 Babel - compiler
 
-Weboack - bundler
+Webpack - bundler
 
 ESLint - static code analysis / linting
 
