@@ -1,5 +1,7 @@
 # react-demo
 
+[![Build Status](https://travis-ci.org/sdetAutomation/react-demo.svg?branch=master)](https://travis-ci.org/sdetAutomation/react-demo)
+
 Install dependencies: `yarn`
 
 brew install node
